@@ -15,6 +15,7 @@ import { TransactionsProvider } from '../contexts/TransactionsProvider';
 import { SolanaPayLogo } from '../images/SolanaPayLogo';
 import { SOLIcon } from '../images/SOLIcon';
 import css from './App.module.css';
+// import { MAINNET_ENDPOINT, MAINNET_USDC_MINT } from '../../utils/constants'
 
 interface AppProps extends NextAppProps {
     host: string;
